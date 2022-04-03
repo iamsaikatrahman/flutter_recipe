@@ -90,7 +90,7 @@ class _FilterSearchState extends State<FilterSearch> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       backgroundColor: Color(0xFFF7FCFF),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
